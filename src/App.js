@@ -48,12 +48,8 @@ const GestureVideoPlayer = () => {
 
   return (
     <div className="container">
-      <video ref={video}
-      src="/video/SaveTube.io-The Himalayas.mp4" 
-      controls={false} 
-      onLoadedData={LoadedData} 
-      onTimeUpdate={TimeUpdate} 
-      onDoubleClick={DoubleTapEvent} />
+      <video ref={video} src="/video/SaveTube.io-The Himalayas.mp4" controls={false} 
+      onLoadedData={LoadedData} onTimeUpdate={TimeUpdate} onDoubleClick={DoubleTapEvent} />
         <div className='display-time'>
           {Math.floor(elapsedTime / 60)}:{Math.floor(elapsedTime % 60).toString().padStart(2, '0')} /{' '}
           {Math.floor(totalTime / 60)}:{Math.floor(totalTime % 60).toString().padStart(2, '0')}
