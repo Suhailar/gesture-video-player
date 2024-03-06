@@ -1,6 +1,8 @@
 # Gesture Video Player
 
 A React-based video player that allows users to control video playback using gestures.
+## Live Link
+[Gesture Video Player](https://gesture-video-player.netlify.app/)
 
 ## Features
 
@@ -16,8 +18,6 @@ A React-based video player that allows users to control video playback using ges
 - JavaScript
 - React
 
-## Live Link
-[Live Link](https://yourusername.github.io/gesture-video-player/)
 
 ## Installation
 ### `npm install`
