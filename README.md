@@ -4,9 +4,9 @@ A React-based video player that allows users to control video playback using ges
 
 ## Features
 
-- Play/Pause video using a double-click or a play/pause button
-- Rewind video by 10 seconds using a double-click or a rewind button
-- Forward video by 10 seconds using a double-click or a forward button
+- Play and Pause video using a double-click on the middle of the screen
+- Rewind the video by 10 seconds using a double-click on the left side screen
+- Forward the video by 10 seconds using a double-click on the right side screen
 - Display elapsed and total video time
 
 ## Technology Stack
