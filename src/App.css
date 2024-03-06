@@ -1,0 +1,39 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 680px;
+  border-radius: 10px;
+  margin: 0;
+  background-color: #282c34;
+}
+
+video {
+  width: 80%;
+  height: 90%;
+  object-fit: cover;
+  border: 1px solid wheat;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.display-time {
+  color: #87CEEB;
+  font-size: 20px;
+}
+
+.play-pause {
+  
+  font-size: 20px;
+  margin-left: 10px;
+  text-align: center;
+}
+.play-pause.playing {
+  color: red;
+}
+
+.play-pause.paused {
+  color: greenyellow;
+}
